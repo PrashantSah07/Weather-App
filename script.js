@@ -49,6 +49,9 @@ async function getData() {
     }
 
     catch (error) {
+        if (error) {
+            document.write("Server not found:(")
+        }
         console.log(error)
     }
 
@@ -70,4 +73,4 @@ cut.addEventListener("click", function () {
     day1.innerHTML = "";
     day2.innerHTML = "";
     day3.innerHTML = "";
-})
+});

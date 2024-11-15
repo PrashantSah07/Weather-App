@@ -50,7 +50,7 @@ async function getData() {
 
     catch (error) {
         if (error) {
-            document.write("Server not found:(")
+            document.write("Currently Unavailable:(")
         }
         console.log(error)
     }
